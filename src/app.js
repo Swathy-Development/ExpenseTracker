@@ -55,7 +55,7 @@ class ExpenseTracker extends React.Component{
     render(){
         return(
             <div>
-                <Header title="Expense Tracker"/>
+                <Header title="Expense Tracker App"/>
                 <Balance displayText="Balance" amount={this.state.amount}/>
                 <Expenses desc={this.state.desc} amount={this.state.amount} headerOne="Description" headerTwo="Amount"/>
                 <AddTransaction handleAddTransaction={this.handleAddTransaction}/>

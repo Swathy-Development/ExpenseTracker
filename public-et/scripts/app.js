@@ -76,7 +76,7 @@ var ExpenseTracker = function (_React$Component) {
             return React.createElement(
                 'div',
                 null,
-                React.createElement(Header, { title: 'Expense Tracker' }),
+                React.createElement(Header, { title: 'Expense Tracker App' }),
                 React.createElement(Balance, { displayText: 'Balance', amount: this.state.amount }),
                 React.createElement(Expenses, { desc: this.state.desc, amount: this.state.amount, headerOne: 'Description', headerTwo: 'Amount' }),
                 React.createElement(AddTransaction, { handleAddTransaction: this.handleAddTransaction })
